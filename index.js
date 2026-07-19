@@ -243,4 +243,4 @@ console.log("Token length:", process.env.DISCORD_TOKEN?.length);
 console.log("TOKEN exists:", !!process.env.TOKEN);
 console.log("TOKEN length:", process.env.TOKEN?.length);
 
-client.login(process.env.TOKEN);
+client.login(process.env.DISCORD_TOKEN);
