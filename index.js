@@ -240,4 +240,5 @@ function buildStatusText(state) {
 console.log("Token loaded:", !!process.env.DISCORD_TOKEN);
 console.log("Token length:", process.env.DISCORD_TOKEN?.length);
 
+console.log(Object.keys(process.env).filter(x => x.includes("TOKEN")));
 client.login(process.env.DISCORD_TOKEN);
