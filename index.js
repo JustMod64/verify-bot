@@ -237,4 +237,4 @@ function buildStatusText(state) {
   return `Set up the VERIFY button:\nColor: ${color}\nChannel: ${channel}`;
 }
  
-client.login(process.env.DISCORD_TOKEN);
+client.login(process.env.TOKEN);

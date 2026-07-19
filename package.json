@@ -4,6 +4,9 @@
   "description": "Discord bot: /start sets up a colored VERIFY button that opens a 2-field modal",
   "main": "index.js",
   "type": "commonjs",
+  "engines": {
+    "node": "20.x"
+  },
   "scripts": {
     "deploy": "node deploy-commands.js",
     "start": "node index.js"
