@@ -237,4 +237,7 @@ function buildStatusText(state) {
   return `Set up the VERIFY button:\nColor: ${color}\nChannel: ${channel}`;
 }
  
+console.log("Token loaded:", !!process.env.DISCORD_TOKEN);
+console.log("Token length:", process.env.DISCORD_TOKEN?.length);
+
 client.login(process.env.DISCORD_TOKEN);
